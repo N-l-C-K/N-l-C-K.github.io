@@ -14,9 +14,12 @@
     .col-s-12 {width: 100%;}
 
     /* Guides */
-    /* .images.row > div {
-        padding: 0 20px;
-    } */
+    .images div {
+        width: 48.5%;
+    } 
+    .images .list-1,.list-3 {
+        margin-right: 3%;
+    }
 
     /* Footer */
     footer .box {
