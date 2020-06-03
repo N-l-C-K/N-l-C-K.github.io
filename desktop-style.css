@@ -69,46 +69,36 @@
     }
 
     /* Banner */
-    #banner {
-        background: url('Images/bg_images/danang-view-day.jpg') no-repeat;
-        background-size: cover;
-        height: 100vh;
-        border: none;
-    }
-    #banner .header {
-        position: absolute;
-        top: 26%;
+    #banner .container .header {
+        font-size: 150%;
+        /* position: relative; */
+        top: 35vh;
         margin: 0 20px;
+        text-align: center;
     }
-    #banner .header h1 {
-        font-family: 'Tienne', serif;
-        color: white;
-        font-size: 300%
+    #banner .container .header > h1 {
+        font-size: 400%;
     }
-    #banner .header p {
-        font-size: 140%;
-        color: white;
+    #banner .learn-more {
+        top: 55vh;
     }
-    #banner .header h1,p {
-        margin: 0;
-    }
-    /* NEIGHBORHOOD GUIDES */
-    #guides {
+    /* NEIGHBORHOOD places */
+    #places {
         background-color: #E4E4E4;
         padding: 20px;
         border-bottom: 2px solid #D5D5D5;
     }
-    #guides .header {
+    #places .header {
         margin: 0;
         padding: 0 20px;
     }
-    #guides .header h2 {
+    #places .header h2 {
         font-size: 200%;
         font-family: "Segoe UI", Roboto;
         color: #3D4041;
         margin-bottom: 10px
     }
-    #guides .header p {
+    #places .header p {
         color: #3D4041;
     }
     /* Images */

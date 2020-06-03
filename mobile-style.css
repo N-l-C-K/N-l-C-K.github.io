@@ -86,62 +86,46 @@ label.checkbtn {
 }
 
 /* Banner */
-/* #banner {
-    border-bottom: 2px solid #D5D5D5;
-}
-#banner img {
-    display: none;
+#banner {
+    background: url('Images/bg_images/danang-view-day.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border: none;
 }
 #banner .header {
-    margin: 50px 0px;
+    position: relative;
+    top: 40vh;
+    margin: 0 20px;
+    text-align: center;
 }
 #banner .header h1 {
-    font-size: 250%;
-    margin-bottom: 20px;
-} */
-
-    /* Banner */
-    #banner {
-        background: url('Images/bg_images/danang-view-day.jpg') no-repeat;
-        background-size: cover;
-        height: 100vh;
-        border: none;
-    }
-    
-    #banner .header {
-        position: relative;
-        top: 40vh;
-        margin: 0 20px;
-        text-align: center;
-    }
-    #banner .header h1 {
-        font-family: 'Arial', serif;
-        color: white;
-        font-size: 350%;
-        word-spacing: 5px;
-        letter-spacing: 3px;
-    }
-    #banner .header p {
-        font-size: 140%;
-        color: white;
-    }
-    #banner .header h1,p {
-        margin: 0;
-    }
-    #banner .learn-more {
-        position: relative;
-        top: 45vh;
-        text-align: center;
-        text-transform: uppercase;
-    }
-    #banner .learn-more a {
-        color: white;
-        padding: 10px;
-        border: 1px solid white;
-    }
-    #banner .learn-more a:hover,a:active {
-        background: rgba(0, 0, 0, 0.6);
-    }
+    font-family: 'Arial', serif;
+    color: white;
+    font-size: 350%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+#banner .header p {
+    font-size: 140%;
+    color: white;
+}
+#banner .header h1,p {
+    margin: 0;
+}
+#banner .learn-more {
+    position: relative;
+    top: 45vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+#banner .learn-more a {
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+#banner .learn-more a:hover,a:active {
+    background: rgba(0, 0, 0, 0.6);
+}
 /* NEIGHBORHOOD places */
 
 #places .header {
