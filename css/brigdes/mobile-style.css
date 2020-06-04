@@ -25,73 +25,9 @@ body {
     margin: auto;
 }
 
-/* Navbar */
-#nav-bar {
-    position: fixed;
-    width: 100%;
-    height: 70px;
-    z-index: 100;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    overflow: auto;
-    overflow: hidden;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.205);
-}
-label.logo {
-    display: inline-block;
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 70px;
-    padding: 0 30px;
-    border-right: 1px solid rgba(255, 255, 255, 0.205);
-}
-label.logo a {
-    color: white;
-    text-transform: uppercase;
-    opacity: 1 !important;
-}
-label.checkbtn {
-    display: block;
-    font-size: 30px;
-    color: white;
-    float: right;
-    margin-right: 30px;
-    line-height: 70px;
-    cursor: pointer;
-}
-.nav-list {
-    display: block;
-}
-.nav-list a {
-    display: block;
-    font-size: 20px;
-    color: white;
-    text-transform: uppercase;
-    margin: 50px 0;
-}
-.nav-list a:active,a:active {
-    color: lightseagreen;
-}
-.nav-list {
-    position: fixed;
-    width: 100%;
-    height: auto;
-    background: #2c3e50;
-    top: 70px;
-    left: -100%;
-    text-align: center;
-    transition: all .3s;
-}
-#check {
-    display: none;
-}
-#check:checked ~ .nav-list {
-    left: 0;
-}
-
 /* Banner */
 #banner {
-    background: url('Images/bg_images/danang-view-day.jpg') no-repeat;
+    background: url('/Images/bg_images/bg1.jpg') no-repeat;
     background-size: cover;
     height: 100vh;
     border: none;
@@ -100,7 +36,6 @@ label.checkbtn {
     position: relative;
     width: 100%;
     top: 40vh;
-    /* margin: 0 20px; */
     text-align: center;
 }
 #banner .header h1 {
@@ -109,13 +44,11 @@ label.checkbtn {
     font-size: 350%;
     word-spacing: 5px;
     letter-spacing: 3px;
+    margin-bottom: 25px;
 }
 #banner .header p {
     font-size: 140%;
     color: white;
-}
-#banner .header h1,p {
-    margin: 0;
 }
 #banner .learn-more {
     position: relative;
@@ -131,32 +64,62 @@ label.checkbtn {
 #banner .learn-more a:hover,a:active {
     background: rgba(0, 0, 0, 0.6);
 }
-/* NEIGHBORHOOD places */
-#places .header {
-    margin: 50px 20px;
+
+/* BRIGDES */
+#bridges  {
+    text-align: justify;
+    padding-top: 30px;
+    background-color: #E4E4E4;
+    border-bottom: 2px solid #D5D5D5;
+    color: #3D4041;
 }
-#places .header h2 {
-    font-size: 250%;
+#bridges .container div {
     margin-bottom: 20px;
+}
+#bridges .header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+#bridges .header p {
+    font-style: italic;
+}
+#bridges h3 {
+    text-transform: uppercase;
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+#bridges .info {
+    margin-top: 15px;
+}
+#bridges p {
+    margin: 0;
+}
+hr {
+    width: 10vw;
+    margin: auto;
+    margin-bottom: 35px;
+    height: 4px;
+    background-color: lightseagreen;
+    border: none;
 }
 /* Images */
 .images .img-1 {
-    background: url(Images/homepage_places/cau-tran-thi-ly-hp.jpg) no-repeat center;
+    background: url(/Images/homepage_places/cau-tran-thi-ly-hp.jpg) no-repeat center;
     width: 100%;
     height: 450px;
 }   
 .images .img-2 {
-    background: url(Images/homepage_places/bana-hp.jpg) no-repeat center;
+    background: url(/Images/homepage_places/bana-hp.jpg) no-repeat center;
     width: 100%;
     height: 450px;
 } 
 .images .img-3 {
-    background: url(Images/homepage_places/marble-mountain-hp.jpg) no-repeat center;
+    background: url(/Images/homepage_places/marble-mountain-hp.jpg) no-repeat center;
     width: 100%;
     height: 450px;
 } 
 .images .img-4 {
-    background: url(Images/homepage_places/linh-ung-hp.jpg) no-repeat center;
+    background: url(/Images/homepage_places/linh-ung-hp.jpg) no-repeat center;
     width: 100%;
     height: 450px;
 } 
