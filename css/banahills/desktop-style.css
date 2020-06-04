@@ -33,13 +33,15 @@
         font-size: 400%;
     }
     #banner .learn-more {
-        top: 55vh;
+        top: 45vh;
     }
-    /* NEIGHBORHOOD places */
+    /* BANAHILLS */
     #banahills .info {
         font-size: 120%;
     }
-    
+    #banahills .info p {
+        transform: translate(0%, 50%);
+    }
 
     /* Footer */
     footer {

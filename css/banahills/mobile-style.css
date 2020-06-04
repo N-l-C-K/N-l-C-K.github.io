@@ -36,15 +36,12 @@ video {
 
 /* Banner */
 #banner {
-    /* background: url('/Images/bg_images/bg1.jpg') no-repeat; */
-    /* background-size: cover; */
     height: 100vh;
-    /* border: none; */
 }
 #banner .header {
     position: relative;
     width: 100%;
-    top: 40vh;
+    top: 30vh;
     text-align: center;
 }
 #banner .header h1 {
@@ -61,7 +58,7 @@ video {
 }
 #banner .learn-more {
     position: relative;
-    top: 45vh;
+    top: 40vh;
     text-align: center;
     text-transform: uppercase;
 }
@@ -74,7 +71,7 @@ video {
     background: rgba(0, 0, 0, 0.6);
 }
 
-/* BRIGDES */
+/* BANAHILLS */
 #banahills  {
     text-align: justify;
     padding-top: 30px;
@@ -99,9 +96,11 @@ video {
 }
 #banahills .info {
     margin-top: 15px;
+    height: auto;
 }
 #banahills p {
     margin: 0;
+
 }
 hr {
     width: 10vw;
