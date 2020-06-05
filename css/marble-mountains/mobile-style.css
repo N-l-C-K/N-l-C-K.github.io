@@ -35,7 +35,7 @@ body {
 
 /* Banner */
 #banner {
-    background: url('/Images/banahill/bana-bgimage') no-repeat; 
+    background: url('/Images/marble-mountain/marble-mountain-bg.jpg') no-repeat; 
     background-size: cover;
     height: 100vh;
     border: none;
@@ -73,34 +73,34 @@ body {
     background: rgba(0, 0, 0, 0.6);
 }
 
-/* BANAHILLS */
-#banahills  {
+/* marble-mountains */
+#marble-mountains  {
     text-align: justify;
     padding-top: 30px;
     background-color: #E4E4E4;
     border-bottom: 2px solid #D5D5D5;
     color: #3D4041;
 }
-#banahills .container div {
+#marble-mountains .container div {
     margin-bottom: 20px;
 }
-#banahills .header {
+#marble-mountains .header {
     margin-bottom: 30px;
     text-align: center;
 }
-#banahills .header p {
+#marble-mountains .header p {
     font-style: italic;
 }
-#banahills h3 {
+#marble-mountains h3 {
     text-transform: uppercase;
     font-size: 150%;
     margin-bottom: 10px;
 }
-#banahills .info {
+#marble-mountains .info {
     margin-top: 15px;
     height: auto;
 }
-#banahills p {
+#marble-mountains p {
     margin: 0;
 
 }
